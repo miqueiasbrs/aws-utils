@@ -5,7 +5,6 @@ Clone all CodeCommit repositories
 
 * Define the profile configured in aws cli's code commit as shown below
     > AWS.config.credentials = new AWS.SharedIniFileCredentials({profile: 'CodeCommitBpp'});
-/
 * Define the CodeCommit region
     > AWS.config.region = 'us-east-1';
 
@@ -15,9 +14,10 @@ Clone all CodeCommit repositories
 ## Install
 
 * Run commands
-    > npm install
-
+    ```bash
+    $ npm install
 ## Run
 
 * To run the script run the command below
-    > node clone.js
+    ```bash
+    $ node clone.js
