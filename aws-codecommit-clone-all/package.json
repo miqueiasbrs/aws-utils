@@ -1,0 +1,27 @@
+{
+  "name": "aws-codecommit-clone-all",
+  "version": "1.0.0",
+  "description": "Clone all CodeCommit repositories",
+  "main": "clone.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miqueiasbrs/aws-utils.git"
+  },
+  "keywords": [
+    "CodeCommit",
+    "AWS",
+    "GIT"
+  ],
+  "author": "Miqueias Barros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miqueiasbrs/aws-utils/issues"
+  },
+  "homepage": "https://github.com/miqueiasbrs/aws-utils#readme",
+  "dependencies": {
+    "aws-sdk": "^2.418.0"
+  }
+}
